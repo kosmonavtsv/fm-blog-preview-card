@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://kosmonavtsv.github.io/blog-preview-card)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-card-using-css-grid-variables-media-queries-IAxUC3X0Ij)
+- Live Site URL: [kosmonavtsv.github.io/blog-preview-card](https://kosmonavtsv.github.io/blog-preview-card)
 
 ## My process
 
