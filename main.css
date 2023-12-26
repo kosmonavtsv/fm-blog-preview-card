@@ -1,0 +1,148 @@
+:root {
+  --clr-white: hsla(0, 0%, 100%, 1);
+  --clr-primary: hsla(47, 89%, 63%, 1);
+  --clr-gray: hsla(0, 0%, 50%, 1);
+  --clr-black: hsla(0, 0%, 7%, 1);
+  --fs-300: 0.75rem;
+  --fs-400: 0.875rem;
+  --fs-600: 1.25rem;
+  --pd-md: 1.5rem;
+  --pd-sm: 0.75rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+.fs-300 {
+  font-size: var(--fs-300);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-600 {
+  font-size: var(--fs-600);
+}
+.fw-800 {
+  font-weight: 800;
+}
+.bg-primary {
+  background-color: var(--clr-primary);
+}
+.bg-white {
+  background-color: var(--clr-white);
+}
+.clr-gray {
+  color: var(--clr-gray);
+}
+.clr-black {
+  color: var(--clr-black);
+}
+.clr-white {
+  color: var(--clr-white);
+}
+.clr-primary {
+  color: var(--clr-primary);
+}
+.fw-800 {
+  font-weight: 800;
+}
+
+.pd-md {
+  padding: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.items-start {
+  justify-items: start;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Figtree, sans-serif;
+  font-size: var(--fs-400);
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-primary);
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 24rem;
+  --gap: 1.5rem;
+  border-radius: 1.25rem;
+  border: 1px solid #111;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card:hover {
+  box-shadow: 16px 16px 0px 0px #000;
+  transform: translate(-2px, -1px);
+}
+
+.card_img {
+  border-radius: 0.63rem;
+}
+
+.card_content {
+  --gap: 0.75rem;
+}
+
+.card_status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.card_title {
+  cursor: pointer;
+}
+
+.card_title:hover {
+  color: var(--clr-primary);
+}
+
+.card_author {
+  justify-content: start;
+  align-items: center;
+  --gap: 0.75rem;
+}
+
+.card_author-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media only screen and (min-width: 25rem) {
+  :root {
+    --fs-400: 1rem;
+    --fs-600: 1.5rem;
+  }
+}
