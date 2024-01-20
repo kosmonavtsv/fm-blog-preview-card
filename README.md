@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/responsive-card-using-css-grid-variables-media-queries](https://www.frontendmentor.io/solutions/responsive-card-using-css-grid-variables-media-queries-IAxUC3X0Ij)
-- Live Site URL: [kosmonavtsv.github.io/blog-preview-card](https://kosmonavtsv.github.io/fm-blog-preview-card)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/responsive-card-using-css-grid-variables-media-queries-IAxUC3X0Ij)
+- Live Site URL: [Github Page](https://kosmonavtsv.github.io/fm-blog-preview-card)
 
 ## My process
 
